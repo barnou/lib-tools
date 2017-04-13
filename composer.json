@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "Lib\\Lib\\": "src/lib",
-            "Lib\\Exception": "src/exception"
+            "Lib\\Exception\\": "src/exception"
         }
     },
     "minimum-stability": "dev"
