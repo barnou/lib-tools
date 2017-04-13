@@ -1,0 +1,21 @@
+{
+    "name": "it/lib-tools",
+    "description": "Lib to be used in different project",
+    "authors": [
+        {
+            "name": "Baptiste Arnou",
+            "email": "b.arnou05@gmail.com"
+        }
+    ],
+    "license": "MIT License",
+    "require": {
+        "php": ">=5.3.0",
+        "slim/slim": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\Lib\\": "src/Lib"
+        }
+    },
+    "minimum-stability": "dev"
+}
